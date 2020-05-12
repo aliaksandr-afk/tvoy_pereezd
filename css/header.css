@@ -1,0 +1,79 @@
+.header {
+    height: 100vh;
+}
+
+.header__bg {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+}
+
+.header__wrap {
+    margin: 0 auto;
+    height: 100vh;
+    color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(2, 2, 2, 0.356);
+    height: 90px;
+}
+
+.header__logo {
+    height: 30px;
+    margin: 20px 0 0 30px;
+    width: 180px;
+}
+
+.header__nav {
+    padding-top: 24px;
+}
+
+.menu__item {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.menu__item:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.384)
+}
+
+.menu__item a {
+	color: #fff;
+	font-size: 18px;
+	padding: 13px 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__contacts {
+    padding: 12px;
+}
+
+.header__contacts-btn {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 6px;
+    margin-top: 6px;
+}
+
+.header__contacts-btn:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.384)
+}
+
+.header__h1 h1 {
+	color: #fff;
+	font-weight: normal;
+	margin-top: 100px;
+	margin-left: 80px;
+	font-size: 62px;
+}
+
+.header__h1 h1 b {
+	color: #f0ff74;
+}

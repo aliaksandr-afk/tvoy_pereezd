@@ -1,0 +1,72 @@
+@import url("../css/header.css");
+@import url("../css/main.css");
+@import url("../css/footer.css");
+@import url("../css/media-medium.css");
+@import url("../css/media-small.css");
+
+@media screen and (min-width: 320px){
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+    
+    .w-50 {
+        width: 50%;
+    }
+    
+    .w-100 {
+        width: 100%;
+    }
+    
+    a:active, a:focus { outline: none; }
+    input, textarea {outline:none;}
+    input:active, textarea:active {outline:none;}
+    :focus {outline:none;}
+    
+    .text-bold {
+        font-weight: 400;
+    }
+    
+    .text-bolder {
+        font-weight: 900;
+    }
+    
+    .text-light {
+        font-weight: 300;
+    }
+    
+    .text-upper {
+        text-transform: uppercase;
+    }
+    
+    .text-black {
+        color: #000;
+    }
+    
+    .text-small {
+        font-size: 10px;
+    }
+    
+    .text-big {
+        font-size: 40px;
+    }
+    
+    .red-bg {
+        background-color: rgb(233, 113, 76);
+    }
+    
+    .orange-bg {
+        background: rgb(228, 174, 88);
+    }
+    
+    .black-bg {
+        background-color: rgb(22, 22, 22);
+    }
+}

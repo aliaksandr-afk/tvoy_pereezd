@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Твой переезд</title>
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__bg">
+			<div class="overlay"></div>
+			<video preload="auto" loop="loop" muted="muted" playsinline autoplay="autoplay" poster="./img/bg.jpg" class="fullscreen-bg__video">
+				<source src="./video/bg.mp4" type="video/mp4">
+				<source src="./video/bg.webm" type="video/webm">
+			</video>
+		</div>
+		<div class="header__wrap flex wrapper">
+			<img src="img/logo.png" alt="TvoyPereezd" class="header__logo">
+			<nav class="header__nav">
+				<ul class="menu">
+					<li class="menu__item">
+						<a href="#top">Главная</a>
+					</li>
+					<li class="menu__item">
+						<a href="#autopark">Автопарк</a>
+					</li>
+					<li class="menu__item">
+						<a href="#adv">Услуги</a>
+					</li>
+					<li class="menu__item">
+						<a href="#costs">Наши цены</a>
+					</li>
+					<li class="menu__item">
+						<a href="#">О переезде</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__contacts">
+				<div class="header__phone text-bold">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					+7(968)365-31-79
+				</div>
+				<a class="header__contacts-btn text-upper text-bold" href="#" onclick="$('#exampleModal').arcticmodal()">Заказать звонок</a>
+			</div>
+		</div>
+
+		<div class="header__h1">
+			<h1>Грузоперевозки <br>по <b>Москве</b></h1>
+		</div>
+	</header>
+
+	<main class="main flex">
+		<div class="main-bg">
+		</div>
+		<div class="main-about">
+			<div class="main-about__inner">
+				<span class="main-about__inner-pre">О нас</span>
+				<h2 class="main-about__inner-main">Высокое качество -<br> составляющая успеха</h2>
+				<div class="main-about__inner-text"></div>
+				<p>Транспортная компания «Твой переезд» предоставляет полный комплекс логистических услуг. У нас вы можете на оптимальных условиях заказать грузоперевозки по Москве и области.</p>
+				<a class="main-about__inner-main-btn text-upper text-bolder" href="#" onclick="$('#exampleModal').arcticmodal()">Сделать заказ</a>
+			</div>
+		</div>
+	</main>
+
+	<section class="advantages">
+		<div class="advantages__wrap">
+			<div class="advantages__header">
+				<h2 class="advantages__text text-upper">наши преимущества</h2>
+			</div>
+			<div class="advantages__items flex">
+				<div class="advantages__item">
+					<h3>Надежная упаковка</h3>
+					<p>Упаковка в <span>коробки, пленку, другие материалы</span><br>Распаковка и очистка от мусора</p>
+					<img src="img/box.png" alt="#">
+				</div>
+				<div class="advantages__item">
+					<h3>Большой выбор</h3>
+					<p>В нашем автопарке различные автомобили, способные перевезти груз от <span>800 кг</span> до <span>5 тонн</span></p>
+					<img src="img/car.png" alt="#">
+				</div>
+				<div class="advantages__item">
+					<h3>Сборка мебели</h3>
+					<p>Разборка мебели. Демонтаж встроенной бытовой техники <span>Сборка мебели</span></p>
+					<img src="img/sofa.png" alt="#">
+				</div>
+				<div class="advantages__item">
+					<h3>Подключение техники</h3>
+					<p>Установка и подключение бытовой техники: <span>газовые плиты, стиральные машины</span></p>
+					<img src="img/wash.png" alt="#">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__wrap flex">
+			<div class="footer__logo">
+				<img src="img/logo.png" alt="TvoyPereezd" class="logo">
+			</div>
+			<div class="footer__mail">
+				<p class="footer__mail-text">
+					o.gruzoperevozki@yandex.ru<br>+7 (968) 365-31-79
+				</p>
+			</div>
+			<div class="footer__copy">
+				<p class="footer__mail-text">
+					&copy 2018 Твой переезд
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
